@@ -1,0 +1,59 @@
+
+html,
+body {
+    height: 100%;
+	box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+	font-family: 'poppins', sans-serif;
+	min-height: 100vh;
+}
+
+.container 
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	text-align: center;
+    background-image: url("../img/jurassic-coast-1089035_1920.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;   
+	border-radius: 1rem; 
+}
+.container-box
+{
+	display:inline-block; 
+	padding:10px; 
+	background: rgba(255, 255, 255, .8);
+	border: 1px solid #fff;	
+	position: absolute;
+  	top: 55%;
+  	left: 0;
+}
+
+.modal-content
+{	
+	font-family: 'poppins', sans-serif;
+	color: #fff;
+}
+
+
+.modal-body {
+	padding: 20px;
+}
+
+.form-control {
+	margin-bottom: 15px;
+}
+
+.wrapper .input-field {
+    margin-bottom: 15px;
+}
+
+.input-field input[type="text"],
+.input-field textarea {
+    width: 100%;
+    padding: 12px;
+    border: 0;
+}

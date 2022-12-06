@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;800" rel="stylesheet">
+        <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="import" href="import/../tests/popup_contactform.html"> -->
+        <!-- <link rel="stylesheet" href="../Cristal_Vision_Pool_Solutions/tests/popup_contactform.css"> -->
+        <link rel="shortcut icon" type="image/png" href="img/favicon_alt.png">
+        <title>Cristal Vision Pools | Professional Pool Cleaning & Gardening Services</title>
+    </head>
+    <body>
+        <!-- <script>
+            var contact_popup = document.querySelector('link[rel="import"]').import;
+            var div = contact_popup.querySelector('.contact_popup');
+            document.body.appendChild(div.cloneNode(true));
+        </script> -->
+        <!-- header -->
+        <header class="header">
+            <div class="header__logo-box">
+                <img src="img/logo-large.png" alt="logo" class="header__logo">
+            </div>
+            <!-- nav box -->
+            <div class="header__nav-box">
+                <input type="checkbox" id="hamburger-input" 
+                class="burger-shower" />
+                <label id="hamburger-menu"
+                for="hamburger-input">
+                    <nav id="sidebar-menu">
+                        <ul class="main-menu" id="ms-auto">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#abt">About Us</a></li>
+                            <li><a href="#serv">Services</a></li>
+                            <li><a href="#quote">Pricing</a></li>
+                            <li><a href="#footer">Contact</a></li>
+                        </ul>
+                    </nav>
+                </label>
+                <div class="overlay"></div>
+            </div>
+            <div class="header__text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary--main">Cristal Vision</span>
+                    <span class="heading-primary--sub">Pool & Garden Maintenance</span>
+                </h1>
+                <!--scroll animate down to Services section below -->
+                <a href="#serv" class="btn btn--white btn--animated">Our services</a>
+                <!-- <input type="btn" onClick="document.getElementById('middle').scrollIntoView();" /> -->
+            </div> 
+        </header>
+        <br>
+        <div class="about" id="abt">
+            <br>
+            <h2 class="title">About Cristal Vision</h2>
+            <hr class="hr_lines">
+            <br>
+        </div>
+        <div class="text">
+            <p class="text">At Cristal Vision we have been providing first-class pool and garden services for over 15 years.
+                <br>We specialise in pool cleaning, correcting chemicals to balance Ph levels, ensuring you and your family can safely enjoy your pool,
+                 whilst being regularly cleaned and maintained all year around.</br>
+                <br>We are friendly, reliable and trustworthy and offer great value pricing too.
+                We always keep our promises and make sure that our work is delivered to the highest standard.
+            </p>
+        </div>
+        <!-- gallery -->
+        <div class="gallery-section">
+            <h2 class="title">Happy Customers</h2>
+            <hr class="hr_lines">
+            <p class="text" style="padding: 4rem;">Take a closer look at some of our customers pools and see for yourself just how clean and clear our results are!</p>
+        </div>
+        <div class="bounding-box" id="divbg">
+            <section class="gallery">
+                <article class="gallery">
+                    <figure>
+                        <img src="img/client_pool_art_exp_cmp2.png" alt="clientpool1">
+                        <figcaption>
+                            <h3>Beautifully clean pools...</h3> 
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="gallery">
+                    <figure>
+                        <img src="img/pool_paradise_hero_alt_cmp.png" alt="clientpool2">
+                        <figcaption>
+                            <h3>Contact us for a quote!</h3> 
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="gallery">
+                    <figure>
+                        <img src="img/client_pool_large_flip_exp_cmp.png" alt="clientpool3">
+                        <figcaption>
+                            <h3>Beautifully clean pools..</h3> 
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="gallery">
+                    <figure>
+                        <img src="img/client_pool_curves_pow_cmp.png" alt="clientpool4">
+                        <figcaption>
+                            <h3>Contact us for a quote!</h3> 
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="gallery">
+                    <figure>
+                        <img src="img/client_pool_palapa_exp_cmp.png" alt="clientpool5">
+                        <figcaption>
+                            <h3>Beautifully clean pools..</h3> 
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="gallery">
+                    <figure>
+                        <img src="img/pool_legs_fullsize.png" alt="clientpool6">
+                        <figcaption>
+                            <h3>Enjoy your clean pool!</h3> 
+                        </figcaption>
+                    </figure>
+                </article>
+            </section>
+        </div>
+        <!-- services with icons -->
+        <div class="services" id="serv">
+            <br>
+            <h2 class="title">Explore our services</h2>
+            <hr class="hr_lines">
+            <br>
+        </div>
+        <div class="text">
+            <p class="text">We provide a range of useful services that cater for all customers needs. 
+                <br>Our primary focus is pool cleaning and general maintenance, but we can also offer 
+                a range of other services, from gardening and housekeeping, taxi services and 
+                even tile work and bespoke mosaic projects.
+                <br>
+                <h3 class="services__sub-title">
+                    <span>Please get in touch for additional services that you wish to enquire about,
+                        we are always flexible!</span>
+            </p>
+        </div>
+        <section class="services-section">
+            <div class="services__bed">
+                <div class="wrapper">
+                    <ul class="services__list">
+                        <div class="icn_box" id="services-icon"><img src="img/icn/flower_icn.png"><li id="services-text">gardening</li></img></div>
+                        <div class="icn_box" id="services-icon"><img src="img/icn/home_icn.png"><li id="services-text">housekeeping services</li></img></div>
+                    </ul>
+                    <ul class="services__list">
+                        <div class="icn_box" id="services-icon"><img src="img/icn/beaker_icn.png"><li id="services-text">professional pool cleaning</li></img></div>
+                        <div class="icn_box" id="services-icon"><img src="img/icn/tiles_icn.png"><li id="services-text">pool tiles and mosaics</li></img></div>
+                    </ul>
+                    <ul class="services__list">
+                        <div class="icn_box" id="services-icon"><img src="img/icn/airplane_icn.png"><li id="services-text">airport taxi service</li></img></div>
+                        <div class="icn_box" id="services-icon"><img src="img/icn/key_icn.png"><li id="services-text">key holding</li></img></div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials-section">
+            <div class="testimonials-title">
+                <br>
+                <h2 class="title">What our customers say...</h2>
+                <hr class="hr_lines">
+                <br>
+            </div>
+            <br>
+            <div class="text">
+                <i class="fa fa-quote-left" style="font-size:48px;color:rgb(54, 54, 54)"></i>
+                <p class="text"><span>Your pools are exemplary. Such bespoke work and completed to a high standard. Very happy.</span></p>
+                <em><b>- Dean S</b></em>
+                <p class="text"><span>I don't know what you do differently, but since you started managing our pool it looks the best it's ever been.</span></p>
+                <em><b>- Nigel T</b></em>
+                <p class="text"><span>Thanks for all your help, we really appreciate it. You're always there to sort out everything we need doing.<br>Superb jobs - always very reliable and reasonable!</span></p>
+                <em><b>- Anne & Pete</b></em>
+                <!-- <i class="fa fa-quote-right" style="font-size:48px;color:rgb(54, 54, 54);float: right;"></i> -->
+                <br>
+                <br>
+            </div>
+        </section>
+        <footer__body>
+            <footer class="footer">
+                <div class="footer__booking"> <!-- footer outer div (purple) -->
+                    <div class="footer__start">
+                        <div class="footer__main-text">
+                            <h2 class="footer__title">Get in touch</h2>
+                            <h3 class="footer__sub-title"><span>Contact us </span>today<strong></strong><span> to see how we can help</span></h3>
+                        </div>
+                        <div class="footer_top_content">
+                            <!-- <a href="#" class="footer-button btn btn--white btn--animated"> -->
+                            <button type="button" class="btn footer-button btn_pop btn--animated" id="c-btn"><span class="footer__btn-label" id="quote">Get a quote</span></button>
+                            <!-- </a> -->
+                            <img class="footer__contact-icon" src="img/icn/contact_form_icn.png" width="64" height="64">
+                        </div>
+                        <div class="contact-body">
+                            <div id="contact">
+                                <form action="../Cristal_Vision_Pool_Solutions/php/action_page.php">
+                                    <h1 class="popup-text">Contact</h1>
+                                    <ul id="popup-ul">
+                                        <li class="form-li">
+                                            <input type="text" name="name" id="name" placeholder="&#xf2c0; Full name">
+                                            <input type="email" name="email" id="email" placeholder="&#xf003; Email">
+                                        </li>
+                                        <li>
+                                            <textarea name="message" id="message" placeholder="&#xf040; Your message"></textarea>
+                                        </li>
+                                        <li>
+                                            <input type="submit" value="Send message" class="btn_pop" id="submit">
+                                        </li>
+                                    </ul>
+                                </form>
+                            </div>
+                        </div>
+                        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+                        <!-- <script  src="../Cristal_Vision_Pool_Solutions/js/popup_contactform.js"></script> -->
+                    </div>
+                </div>
+                <div class="footer__inner" id="footer">
+                    <div class="column footer-logo">
+                        <a href="#" class="footer__logo">
+                            <div class="logo">
+                                <img src="img/footer_logo.png" alt="cristalvision.es" class="footer__img">
+                            </div>
+                            <div class="footer__logo-info">
+                                <div class="footer__logo-text">Cristal Vision</div>
+                                <div>
+                                    <span class="footer__copyright">Puerto Lumbreras Murcia</span>
+                                    <!-- <span class="footer__copyright">Murcia 30891</span> -->
+                                </div>
+                                <span class="footer__copyright">&copy; copyright 2022.</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="column footer__navigation">
+                        <div class="footer__column-title">Navigation</div>
+                        <ul class="ul-footer">
+                            <!-- can we make this scroll gently back up to the top? -->
+                            <li><a href="index.html" class="ul-a">Home</a></li>
+                            <li><a href="#middle" class="ul-a">Services</a></li>
+                            <li><a href="privacy_policy.html" class="ul-a">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="column footer__navigation">
+                        <div class="footer__column-title">Contact</div>
+                        <ul class="ul-icons">
+                            <li><a href="#" target=" mailto:contact_cristalvisionpools@protonmail.com"><img src="img/icn/mail_icn.png" width="24px" height="24px"></img></a></li>
+                            <li><a href="show-number" target="__blank"><img src="img/icn/phone_icn.png" width="24px" height="24px"></img></a></li>
+                            <li><a href="#" target="__blank"><img src="img/icn/whatsapp_icn.png" width="24px" height="24px"></img></a></li>
+                            <li><a href="#" target="__blank"><img src="img/icn/contact_form_icn.png" width="24px" height="24px"></img></a></li>
+                        </ul>
+                    </div>
+                    <div class="column footer__navigation">
+                        <div class="footer__column-title">Social</div>
+                        <ul class="ul-icons">
+                            <li><a href="#" target="__blank"><img src="img/icn/facebook_icn.png" width="24px" height="24px"></img></a></li>
+                            <li><a href="#" target="__blank"><img src="img/icn/insta_icn.png" width="24px" height="24px"></img></a></li>
+                            <li><a href="#" target="__blank"><img src="img/icn/twitter_icn.png" width="24px" height="24px"></img></a></li>
+                            <li><a href="#" target="__blank"><img src="img/icn/linkedin_icn.png" width="24px" height="24px"></img></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </footer__body>
+        <script>
+            $(document).ready(function(){
+
+                $(window).scrollTop(0);
+            });
+        </script>
+    </body>
+</html>
